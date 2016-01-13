@@ -1,0 +1,20 @@
+%YAML:1.0
+thresholdStep: 20.
+minThreshold: 30.
+maxThreshold: 500.
+minRepeatability: 1
+minDistBetweenBlobs: 10.
+filterByColor: 1
+blobColor: 255
+filterByArea: 1
+minArea: 100.
+maxArea: 1000000.
+filterByCircularity: 0
+minCircularity: 8.0000001192092896e-001
+maxCircularity: 3.4028234663852886e+038
+filterByInertia: 0
+minInertiaRatio: 1.0000000149011612e-001
+maxInertiaRatio: 3.4028234663852886e+038
+filterByConvexity: 0
+minConvexity: 0.5
+maxConvexity: 1.5
