@@ -73,7 +73,7 @@ public class MotionTracker implements Runnable {
             System.err.println("Error opening camera!");
         }
 
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
             // read first frame
             capture.read(frame1);
 
