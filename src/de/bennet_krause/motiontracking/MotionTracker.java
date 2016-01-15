@@ -42,7 +42,7 @@ public class MotionTracker implements Runnable {
      */
     public MotionTracker(Coordinate coords) {
         // create a blob detector with the parameters from the param file
-        // (especially used to ignore small blobs and those that are very near together)
+        // (especially used to ignore small blobs and those that are very close together)
         blobDetector = FeatureDetector.create(FeatureDetector.SIMPLEBLOB);
         blobDetector.read(PARAMS);
         
